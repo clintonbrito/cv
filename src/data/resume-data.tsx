@@ -145,6 +145,7 @@ export const RESUME_DATA = {
         "TypeScript",
         "Node",
         "Express",
+        "MySQL",
         "Sequelize",
         "Docker",
         "Joi",
