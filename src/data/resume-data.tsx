@@ -53,6 +53,12 @@ export const RESUME_DATA = {
   },
   education: [
     {
+      school: "Trybe",
+      degree: "Desenvolvimento Web Full Stack",
+      start: "2023",
+      end: "2024",
+    },
+    {
       school: "Universidade Federal de Sergipe",
       degree: "Bacharelado em Administração, com ênfase em Finanças",
       start: "2011",
