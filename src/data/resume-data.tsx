@@ -27,7 +27,7 @@ export const RESUME_DATA = {
   about:
     "Desenvolvedor Full Stack focado em ajudar as pessoas a entregarem valor e fazer a diferença.",
   summary:
-    "Desenvolvedor Full Stack com uma passagem anterior de 6 anos no mercado financeiro. Migrei para tecnologia pela paixão em resolver problemas de TI. Como sócio na Wert Investimentos, cresci de estagiário para funções-chave, fortalecendo relações e impulsionando o escritório. Formando-me na Trybe, integro programação e habilidades interpessoais, trabalhando com TypeScript, JavaScript, Node, React, Redux, TDD, Jest, RTL, Docker, SQL, ORM, POO, SOLID, Git & GitHub, HTML & CSS, Scrum, Slack, Zoom, Trello, Teams.",
+    "Desenvolvedor Full Stack com uma passagem anterior de 6 anos no mercado financeiro. Migrei para tecnologia pela paixão em resolver problemas de TI. Como sócio na Wert Investimentos, cresci de estagiário para funções-chave, fortalecendo relações e impulsionando o escritório. Formando-me na Trybe, integro habilidades técnicas de programação e habilidades interpessoais.",
   avatarUrl: "https://avatars.githubusercontent.com/u/105871036?v=4",
   personalWebsiteUrl: "https://clintonbrito.com",
   contact: {
