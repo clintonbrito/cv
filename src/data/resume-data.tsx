@@ -22,12 +22,12 @@ import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 export const RESUME_DATA = {
   name: "Clinton Brito",
   initials: "CB",
-  location: "Aracaju, Brazil, GMT-3",
-  locationLink: "https://www.google.com/maps/place/Aracaju",
+  location: "São Paulo, Brazil, GMT-3",
+  locationLink: "https://www.google.com/maps/place/S%C3%A3o+Paulo",
   about:
-    "Desenvolvedor Full Stack focado em ajudar as pessoas a entregarem valor e fazer a diferença.",
+    "Desenvolvedor de Software focado em ajudar as pessoas a entregarem valor e fazer a diferença.",
   summary:
-    "Desenvolvedor Full Stack com uma passagem anterior de 6 anos no mercado financeiro. Migrei para tecnologia pela paixão em resolver problemas de TI. Como sócio na Wert Investimentos, cresci de estagiário para funções-chave, fortalecendo relações e impulsionando o escritório. Formando-me na Trybe, integro habilidades técnicas de programação e habilidades interpessoais.",
+    "Desenvolvedor de Software com uma passagem anterior de 6 anos no mercado financeiro. Migrei para tecnologia pela paixão em resolver problemas de TI. Como sócio na Wert Investimentos, cresci de estagiário para funções-chave, fortalecendo relações e impulsionando o escritório. Formado inicialmente na Trybe, integro habilidades técnicas de programação e habilidades interpessoais.",
   avatarUrl: "https://avatars.githubusercontent.com/u/105871036?v=4",
   personalWebsiteUrl: "https://clintonbrito.com",
   contact: {
@@ -53,6 +53,12 @@ export const RESUME_DATA = {
   },
   education: [
     {
+      school: "Gran Faculdade",
+      degree: "Bacharelado em Engenharia de Software",
+      start: "2024",
+      end: "2028",
+    },
+    {
       school: "Trybe",
       degree: "Desenvolvimento Web Full Stack",
       start: "2023",
@@ -66,6 +72,17 @@ export const RESUME_DATA = {
     },
   ],
   work: [
+    {
+      company: "SouJunior Labs",
+      link: "https://labs.soujunior.tech/",
+      badges: ["Online"],
+      title: "Desenvolvedor Back-End Júnior",
+      logo: ParabolLogo,
+      start: "jul/2024",
+      end: "Atual",
+      description:
+        "Desenvolvedor Back-End Júnior voluntário no projeto \"Tem Vaga Mestre?\" da SouJunior Labs. Stack utilizada: TypeScript, Node.js, NestJS, Express, Prisma, MongoDB, Jest.",
+    },
     {
       company: "Wert - Assessoria de Investimentos BTG Pactual",
       link: "https://wertinvestimentos.com",
@@ -121,24 +138,66 @@ export const RESUME_DATA = {
     },
   ],
   skills: [
+    "Java",
+    "Spring",
     "TypeScript",
     "JavaScript",
     "Node.js",
     "Express",
-    "Sequelize",
+    "SQL",
+    "MySQL",
+    "ORM",
+    "Angular",
     "React",
     "Redux",
     "Docker",
-    "MySQL",
-    "Jest",
-    "Chai",
-    "Testing Library",
-    "Mocha",
+    "POO",
+    "SOLID",
+    "TDD",
+    "Clean Architecture",
     "Git",
     "GitHub",
     "Linux"
   ],
   projects: [
+    {
+      title: "IBM Bootcamp Project",
+      techStack: [
+      "Java",
+      "Spring",
+      "Angular",
+      "TypeScript",
+      "MySQL",
+      "Docker",
+      "Swagger",
+      "ESLint"
+    ],
+      description: "Gerenciador de gastos desenvolvido como projeto final do processo seletivo para Desenvolvedor Júnior da IBM",
+      logo: YearProgressLogo,
+      link: {
+        label: "github.com",
+        href: "https://github.com/clintonbrito/ibm-bootcamp-project",
+      },
+    },
+    {
+      title: "E-Commerce RESTful API",
+      techStack: [
+      "TypeScript", 
+      "Node",
+      "Adonis",
+      "JWT",
+      "MySQL",
+      "Docker", 
+      "ESLint",
+    ],
+      description:
+        "Desafio técnico desenvolvido para um processo seletivo para Desenvolvedor Back-end",
+      logo: MonitoLogo,
+      link: {
+        label: "github.com",
+        href: "https://github.com/clintonbrito/restful-api-ecommerce",
+      },
+    },
     {
       title: "Football League Table",
       techStack: [
@@ -161,23 +220,6 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Dungeons & Dragons",
-      techStack: [
-      "TypeScript", 
-      "Node", 
-      "Express", 
-      "OOP", 
-      "SOLID",
-    ],
-      description:
-        "Jogo de RPG aplicando conceitos de POO e SOLID, desenvolvido como parte do curso de Back-end da Trybe",
-      logo: MonitoLogo,
-      link: {
-        label: "github.com",
-        href: "https://github.com/clintonbrito/dungeons-and-dragons",
-      },
-    },
-    {
       title: "Taste Journey",
       techStack: [
         "JavaScript",
@@ -189,7 +231,7 @@ export const RESUME_DATA = {
         "RTL"
       ],
       description:
-        "App de receitas desenvolvido como projeto final do curso de Front-end da Trybe",
+        "App de receitas desenvolvido em grupo como projeto final do curso de Front-end da Trybe",
       logo: JarockiMeLogo,
       link: {
         label: "github.com",
@@ -214,25 +256,6 @@ export const RESUME_DATA = {
       link: {
         label: "github.com",
         href: "https://github.com/clintonbrito/starwars-planets-search",
-      },
-    },
-    {
-      title: "Blogs API",
-      techStack: [
-      "JavaScript",
-      "Node",
-      "Express",
-      "Sequelize",
-      "API RESTful",
-      "MySQL",
-      "Docker",
-      "JWT"
-    ],
-      description: "API de um blog fictício onde é possível fazer um CRUD de posts, utilizando autenticação de usuário",
-      logo: YearProgressLogo,
-      link: {
-        label: "github.com",
-        href: "https://github.com/clintonbrito/blogs-api",
       },
     },
     {
